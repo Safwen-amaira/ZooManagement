@@ -37,7 +37,9 @@ public class Main {
             myZoo.addAnimal(lion3);
             myZoo.addAnimal(lion4);
             myZoo.addAnimal(lion5);
-
+            myZoo.searchAnimal(lion4);
+            myZoo.addAnimal(lion4);
+            myZoo.searchAnimal(lion4);
 
 
         }

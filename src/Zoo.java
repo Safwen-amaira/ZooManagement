@@ -84,5 +84,25 @@ public void displayZoo (){
     
 }
 
+public int searchAnimal(Animal animal){
+
+int length = this.animals.length();
+boolean isFound=false; 
+    for(int i=0; i>length;i++){
+            if (this.animals[i].name== animal.name){
+                return(i);
+                isFound=true;
+                break; 
+                }else{  
+            continue;
+
+            }
+    }
+    if (!isFound) {
+        return(-1)
+    }
+    
+}
+
 }
 
