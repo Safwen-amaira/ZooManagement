@@ -21,6 +21,14 @@ public class Main {
 
         for (Animal animal : myZoo.getAnimals()) {
             System.out.println(" - " + animal.getName() + " (" + animal.getFamily() + ")");
+        
+        
+        myZoo.displayZoo(); 
+
+
+        System.out.println(myZoo);
+        System.out.println(myZoo.toString());
+        
         }
     }
 }

@@ -58,6 +58,20 @@ public void setNbrCages( int nbrCages){
 
 //methods 
 
-
+public void addAnimal  (Animal animal){
+    int length = this.animals.length(); 
+    this.animals[length+1] = animal; 
+    continue;
 
 }
+public void deleteAnimalByPos (int pos){
+    free(this.animals[pos]);
+}
+
+public void displayZoo (){
+    System.out.println ('name = ',this.name,' city = ',city,' nombre des cages = ',nbrCages);
+    
+}
+
+}
+
