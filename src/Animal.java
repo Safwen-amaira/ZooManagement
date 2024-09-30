@@ -60,7 +60,16 @@ public boolean getIsmammal () {
 
 //methods : 
 
+public void displayAnimal(){
+    System.out.print('family = ',this.family,'name = ', this.name,' age=  ',this.age)
+        if (this.isMammal){
+            System.out.println('this animal is mammal') ;
+        }else{
+            System.out.println('this  animal is not a mammal animal'); 
 
+
+        }
+    }   
 
 
 

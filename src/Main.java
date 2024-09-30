@@ -24,10 +24,7 @@ public class Main {
         
         
         myZoo.displayZoo(); 
-
-
-        System.out.println(myZoo);
-        System.out.println(myZoo.toString());
+        lion.displayAnimal();
         
         }
     }
