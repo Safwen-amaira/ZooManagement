@@ -58,10 +58,21 @@ public void setNbrCages( int nbrCages){
 
 //methods 
 
-public void addAnimal  (Animal animal){
-    int length = this.animals.length(); 
-    this.animals[length+1] = animal; 
-    continue;
+public boolean addAnimal  (Animal animal){
+    int length = this.animals.length()+1; 
+
+    for (int i=0; i>length; i++){
+        if (i==length){
+            this.animals[i]=animal;
+            break;
+        }else{
+            continue;
+        
+        }
+    
+    return true;
+
+    }
 
 }
 public void deleteAnimalByPos (int pos){

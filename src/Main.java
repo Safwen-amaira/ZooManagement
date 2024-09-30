@@ -25,7 +25,21 @@ public class Main {
         
         myZoo.displayZoo(); 
         lion.displayAnimal();
-        
+
+        Animal lion1 = new Animal("Famille des lion", "Simba ", 5, true);
+        Animal lion2 = new Animal("Famille des lion", "Simba ", 5, true);
+        Animal lion3 = new Animal("Famille des lion", "Simba ", 5, true);
+        Animal lion4 = new Animal("Famille des lion", "Simba ", 5, true);
+        Animal lion5 = new Animal("Famille des lion", "Simba ", 5, true);
+
+            myZoo.addAnimal(lion1);
+                        myZoo.addAnimal(lion2);
+            myZoo.addAnimal(lion3);
+            myZoo.addAnimal(lion4);
+            myZoo.addAnimal(lion5);
+
+
+
         }
     }
 }
